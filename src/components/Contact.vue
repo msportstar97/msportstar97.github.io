@@ -12,13 +12,13 @@ export default {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="contactInfo">
       <div class="icons">
-        <a href=https://www.facebook.com/michi.giang>
+        <a href=https://www.facebook.com/michi.giang target="_blank">
           <i class="fa fa-facebook-square fb"></i></a>
-        <a href=https://www.linkedin.com/in/michelle-giang>
+        <a href=https://www.linkedin.com/in/michelle-giang target="_blank">
           <i class="fa fa-linkedin-square linkedin"></i></a>
-        <a href=https://github.com/msportstar97>
+        <a href=https://github.com/msportstar97 target="_blank">
           <i class="fa fa-github-square git"></i></a>
-        <a href=https://www.youtube.com/channel/UCP3CMhrXNRrpxH2wr5loGFw/videos>
+        <a href=https://www.youtube.com/channel/UCP3CMhrXNRrpxH2wr5loGFw/videos target="_blank">
           <i class="fa fa-youtube-square yt"></i></a>
       </div>
       <div class="resume">
