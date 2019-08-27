@@ -91,7 +91,7 @@ export default {
 
 <template>
   <div class="about" id="about">
-    <vueper-slides autoplay :bullets="false" :arrows="false" :touchable="false" :pauseOnHover="false" fixed-height="95vh" :fade="true" :speed="2000">
+    <vueper-slides autoplay :bullets="false" :arrows="false" :touchable="false" :pauseOnHover="false" fixed-height="95vh" :fade="true" :speed="4000">
       <vueper-slide v-for="(slide, idx) in slides" :key="idx" 
       :image="slide.path" class="carousel">
         <div slot="slideContent">

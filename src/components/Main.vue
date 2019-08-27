@@ -181,7 +181,7 @@ export default {
 
 .headerContainer {
   display: grid;
-  grid-template-columns: 10% 30% 1fr;
+  grid-template-columns: 10% 40% 1fr;
   grid-template-areas: "left middle right";
   background: #aa1111;
   font-size: 4vh;

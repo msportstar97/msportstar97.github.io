@@ -11,27 +11,27 @@ export default {
   methods: {
     bobaOpen() {
       this.bobaShow = 'block';
-      document.documentElement.style.overflow = "hidden";
+      document.documentElement.style.overflowY = "hidden";
     },
     bobaClose() {
       this.bobaShow = 'none';
-      document.documentElement.style.overflow = "scroll";
+      document.documentElement.style.overflowY = "scroll";
     },
     yimmyOpen() {
       this.yimmyShow = 'block';
-      document.documentElement.style.overflow = "hidden";
+      document.documentElement.style.overflowY = "hidden";
     },
     yimmyClose() {
       this.yimmyShow = 'none';
-      document.documentElement.style.overflow = "scroll";
+      document.documentElement.style.overflowY = "scroll";
     },
     toyOpen() {
       this.toyShow = 'block';
-      document.documentElement.style.overflow = "hidden";
+      document.documentElement.style.overflowY = "hidden";
     },
     toyClose() {
       this.toyShow = 'none';
-      document.documentElement.style.overflow = "scroll";
+      document.documentElement.style.overflowY = "scroll";
     }
   }
 }
