@@ -176,7 +176,7 @@ export default {
 <style scoped>
 .active {
   text-decoration: underline;
-  color: #2e2d2d;
+  color: #ebebeb;
 }
 
 .headerContainer {

@@ -28,7 +28,7 @@ export default {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background-color:#003A66;
+  background-color:#0f5286;
 }
 
 body {

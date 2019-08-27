@@ -36,7 +36,7 @@ export default {
       </div>
     </div>
     <div class="footer">
-      <i class="fa fa-copyright"> 2019 By Michelle Giang </i>
+      <i class="fa fa-copyright"><span class="copyright"> 2019 By Michelle Giang </span></i>
     </div>
   </div>
 </template>
@@ -47,7 +47,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   padding-top: 3vh;
-  background-color: #666666;
+  background-color: #003A66;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
   font-size: 2vw;
   color: black;
@@ -89,8 +89,9 @@ export default {
 }
 
 .btn {
-  color: black;
-  background-color: #39709b;
+  color: #ecf8ff;
+  background: #b4842f;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
   border: none;
   font-size: 1vw;
   cursor: pointer;
@@ -98,18 +99,18 @@ export default {
   border-radius: 1vh;
 }
 
-.btn:hover {
-  background-color:  #C4A97C;
+.cv:hover {
+  color:  #f5f5a6;
 }
 
 .cv {
   text-decoration: none;
-  color: black;
+  color: #ebebeb;
 }
 
 .info {
   font-size: 1vw;
-  color: black;
+  color: #ebebeb;
 }
 
 .footer {
@@ -119,5 +120,10 @@ export default {
   font-size: 1vw;
   width: 100%;
   margin-top: 3vh;
+}
+
+.copyright {
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+  color: #ebebeb;
 }
 </style>
