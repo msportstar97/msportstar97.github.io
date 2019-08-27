@@ -22,12 +22,12 @@ export default {
           <i class="fa fa-youtube-square yt"></i></a>
       </div>
       <div class="resume">
-        <button class="btn">
-          <a href="./assets/MichelleGiangResume.pdf" download class="cv">
-            <i class="fa fa-download"></i> 
-            Download Resume
-          </a>
-        </button>
+        <a href="https://github.com/msportstar97/msportstar97.github.io/blob/sourceCode/src/assets/MichelleGiangResume.pdf" target="_blank" class="cv">
+          <button class="btn">
+              <i class="fa fa-download"></i> 
+              Download Resume
+          </button>
+        </a>
       </div>
       <div class="details">
         <p class="info"> 
@@ -99,7 +99,7 @@ export default {
   border-radius: 1vh;
 }
 
-.cv:hover {
+.btn:hover {
   color:  #f5f5a6;
 }
 

@@ -169,6 +169,7 @@ export default {
 
 .buttonModal:hover {
   color: #f5f5a6;
+  cursor: pointer;
 }
 
 .modalOverlay {
@@ -216,5 +217,6 @@ export default {
 
 .close:hover {
   color: #f5f5a6;
+  cursor: pointer;
 }
 </style>
