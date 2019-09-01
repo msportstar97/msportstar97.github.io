@@ -145,7 +145,8 @@ export default {
 .projects {
   margin-left: auto;
   margin-right: auto;
-  padding: 3vh;
+  padding-top: 8vh;
+  padding-bottom: 5vh;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
   font-size: 1.5vw;
   color: #b4842f;
