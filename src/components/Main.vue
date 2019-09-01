@@ -83,10 +83,10 @@ export default {
       var header = document.getElementById("headerContainer");
       var pic = document.getElementById("pic");
       if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        header.style.height = "5vh";
+        header.style.height = "8vh";
         header.style.fontSize = "3vh";
-        pic.style.height = "5vh";
-        pic.style.width = "3vw";
+        pic.style.height = "8vh";
+        pic.style.width = "4vw";
       } else {
         header.style.height = "10vh";
         header.style.fontSize = "4vh";
