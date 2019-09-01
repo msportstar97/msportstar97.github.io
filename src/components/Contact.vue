@@ -47,7 +47,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   padding-top: 3vh;
-  background-color: #003A66;
+  background-color: #7bbaeb;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
   font-size: 2vw;
   color: black;
@@ -110,7 +110,7 @@ export default {
 
 .info {
   font-size: 1vw;
-  color: #ebebeb;
+  color: black;
 }
 
 .footer {
