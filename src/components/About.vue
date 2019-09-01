@@ -91,32 +91,31 @@ export default {
 
 <template>
   <div class="about" id="about">
-    <vueper-slides autoplay :bullets="false" :arrows="false" :touchable="false" :pauseOnHover="false" fixed-height="95vh" :fade="true" :speed="4000">
+    <vueper-slides autoplay :bullets="false" :arrows="false" :touchable="false" 
+    :pauseOnHover="false" fixed-height="95vh" :fade="true" :transitionSpeed="100" :speed="5000">
       <vueper-slide v-for="(slide, idx) in slides" :key="idx" 
       :image="slide.path" class="carousel">
         <div slot="slideContent">
           <div class="transbox">
             <h2 class="aboutTitle"> About </h2>
-            <p class="aboutText"> I am a fun-loving girl looking for 
-              a job opportunity that could bring to life my programming skills in Java,
+            <p class="aboutText"> I am a fun-loving woman looking for 
+              a job opportunity in order to bring to life my programming skills in Java,
               JavaScript, HTML, SQL, and other languages to 
               program applications that could be shared with everyone.
               I am currently pursuing a bachelor's in computer science 
               with a minor in business. I am interested in the human-computer interaction
-              field, putting to use my business knowledge in order to know
-              how to design and market web applications. 
+              field, putting to use my business knowledge in order to design and market web applications. 
             </p>
             <div class="moreAbout">
               <div class="hobbies">
                 <h3> Hobbies </h3>
                 <ul>
                   <li>Listen to EDM, i.e. Illenium, Said the Sky, Seven Lions</li>
-                  <li>Watch crime shows, i.e. Criminal Minds, NCIS</li>
+                  <li>Watch crime shows, i.e. Criminal Minds, NCIS, and football</li>
                   <li>Photography (All the background pictures were taken from my vacations)</li>
                   <li>Watch animated and action movies</li>
                   <li>Going to beach and amusement parks</li>
                   <li>Spontaneous outings</li>
-                  <li>Football</li>
                   <li>Travelling</li>
                   <li>Skiing</li>
                 </ul>
@@ -137,7 +136,7 @@ export default {
               <div class="experience">
                 <h3> Experience </h3>
                 <h4> June 2019 - Aug 2019</h4> 
-                <p> Target, Software Engineer Intern Intern</p>
+                <p> Target, Software Engineer Intern</p>
                 <h4> April 2018 - Present</h4> 
                 <p> AbbVie, Rapid Application Developer Intern</p>
                 <h4> June 2017 - July 2017</h4>
@@ -156,7 +155,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .about {
-  margin-top: 5vh;
+  padding-top: 8vh;
 }
 
 .carousel {
@@ -168,13 +167,13 @@ export default {
   padding-right: 1vw;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .vueperslide {
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
   font-size: 1.3vw;
-  color: #AA1111;
+  color: #0f5286;
   font-style: bold;
 }
 
