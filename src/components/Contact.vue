@@ -19,7 +19,7 @@ export default {
           <i class="fa fa-youtube-square yt"></i></a>
       </div>
       <div class="resume">
-        <a href="https://github.com/msportstar97/msportstar97.github.io/blob/sourceCode/public/MichelleGiangResume.pdf" target="_blank" class="cv">
+        <a href="https://github.com/msportstar97/msportstar97.github.io/raw/sourceCode/public/MichelleGiangResume.pdf" target="_blank" class="cv">
           <button class="btn">
               <i class="fa fa-download"></i> 
               Download Resume
