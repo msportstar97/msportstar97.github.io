@@ -82,6 +82,9 @@ export default {
         },
         {
           path: require('../assets/Greece20184.jpg'),
+        },
+        {
+          path: require('../assets/StMartin20191.jpg')
         }
       ]
     }
