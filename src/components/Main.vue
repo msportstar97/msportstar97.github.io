@@ -75,6 +75,10 @@ export default {
         {
           path: require('../assets/Target2019.jpg'),
           description: '2019 - Demo Day for internship at Target'
+        },
+        {
+          path: require('../assets/StMartin2019.jpg'),
+          description: '2019 - Vacation in St. Martin'
         }
       ]
     };
