@@ -3,6 +3,7 @@ import Main from './components/Main'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import SelfBrand from './components/SelfBrand'
 
 export default {
   name: 'app',
@@ -10,6 +11,7 @@ export default {
     Main,
     About,
     Projects,
+    SelfBrand,
     Contact
   }
 }
@@ -20,6 +22,7 @@ export default {
     <Main></Main>
     <about></about>
     <projects></projects>
+    <selfBrand></selfBrand>
     <contact></contact>
   </div>
 </template>

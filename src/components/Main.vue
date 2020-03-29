@@ -13,6 +13,7 @@ export default {
       homeActive: true,
       aboutActive: false,
       projectsActive: false,
+      brandActive: false,
       front: 'Hi, my name is Michelle Giang and this is my story',
       slides: [
         {
@@ -96,10 +97,12 @@ export default {
       var main = document.getElementById("main");
       var about = document.getElementById("about");
       var projects = document.getElementById("projects");
+      var brand = document.getElementById("selfBrand");
 
       var mainOffset = main.offsetTop;
       var aboutOffset = about.offsetTop;
       var projectsOffset = projects.offsetTop;
+      var brandOffset = brand.offsetTop;
       var pageOffset = window.pageYOffset;
       
       var padding = window.innerHeight*0.3;
@@ -108,29 +111,45 @@ export default {
         this.homeActive = true;
         this.aboutActive = false;
         this.projectsActive = false;
+        this.brandActive = false;
       } else if (pageOffset >= (aboutOffset-padding) && pageOffset < (projectsOffset-padding)) {
         this.homeActive = false;
         this.aboutActive = true;
         this.projectsActive = false;
-      } else {
+        this.brandActive = false;
+      } else if (pageOffset >= (projectsOffset-padding) && pageOffset < (brandOffset-padding)) {
         this.homeActive = false;
         this.aboutActive = false;
         this.projectsActive = true;
-      } 
+        this.brandActive = false;
+      } else {
+        this.homeActive = false;
+        this.aboutActive = false;
+        this.projectsActive = false;
+        this.brandActive = true;
+      }
     },
     activeLink(link) {
       if (link === "main") {
         this.homeActive = true;
         this.aboutActive = false;
         this.projectsActive = false;
+        this.brandActive = false;
       } else if (link === "about") {
         this.homeActive = false;
         this.aboutActive = true;
         this.projectsActive = false;
-      } else {
+        this.brandActive = false;
+      } else if (link === "projects") {
         this.homeActive = false;
         this.aboutActive = false;
         this.projectsActive = true;
+        this.brandActive = false;
+      } else {
+        this.homeActive = false;
+        this.aboutActive = false;
+        this.projectsActive = false;
+        this.brandActive = true;
       }
     }
   },
@@ -154,6 +173,7 @@ export default {
         <a class="homeLink" v-bind:class="{active: homeActive}" href="#" v-on:click="activeLink('main')"> Home </a>
         <a class="aboutLink" v-bind:class="{active: aboutActive}" href="#about" v-on:click="activeLink('about')"> About </a>
         <a class="projectsLink" v-bind:class="{active: projectsActive}" href="#projects" v-on:click="activeLink('projects')"> Projects </a>
+        <a class="selfBrandLink" v-bind:class="{active: brandActive}" href="#selfBrand" v-on:click="activeLink('selfBrand')"> Self Brand </a>
       </div>
     </div>
     <div class="mainContainer" id="main">
@@ -215,8 +235,8 @@ export default {
 
 .pages {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "linkHome linkAbout linkProj";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "linkHome linkAbout linkProj linkBrand";
   color:  #c1c1c1;
   align-self: center;
   cursor: pointer;
@@ -234,21 +254,29 @@ export default {
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
+.selfBrandLink {
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}
+
 a {
   color:  #c1c1c1;
   text-decoration: none;
 }
 
 .homeLink:hover {
-  color:#ebebeb
+  color:#ebebeb;
 }
 
 .aboutLink:hover {
-  color:#ebebeb
+  color:#ebebeb;
 }
 
 .projectsLink:hover {
-  color:#ebebeb
+  color:#ebebeb;
+}
+
+.selfBrandLink:hover {
+  color:#ebebeb;
 }
 
 .mainContainer {

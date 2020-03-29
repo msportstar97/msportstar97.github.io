@@ -33,7 +33,7 @@ export default {
       </div>
     </div>
     <div class="footer">
-      <i class="fa fa-copyright"><span class="copyright"> 2019 By Michelle Giang </span></i>
+      <i class="fa fa-copyright"><span class="copyright"> 2020 By Michelle Giang </span></i>
     </div>
   </div>
 </template>
