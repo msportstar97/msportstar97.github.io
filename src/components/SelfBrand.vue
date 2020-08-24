@@ -91,13 +91,12 @@ p {
 }
 
 img {
-  margin: 5vw;
+  margin: 3vw 5vw 3vw 5vw;
 }
 
 .self {
-  transform: rotate(90deg);
-  width: 20vw;
-  height: 20vh;
+  width: 15vw;
+  height: 45vh;
 }
 
 .friend1 {
